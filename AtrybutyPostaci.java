@@ -2,13 +2,12 @@ package Company;
 
 public class AtrybutyPostaci {
     String bron;
-     int hp;
-      int sila;
-     double szybkosc;
+    int hp;
+    int sila;
+    double szybkosc;
 
 
-    AtrybutyPostaci(){
-
+    AtrybutyPostaci() {
     }
 
     public AtrybutyPostaci(String bron, int hp, int sila, double szybkosc) {
@@ -16,8 +15,5 @@ public class AtrybutyPostaci {
         this.hp = hp;
         this.sila = sila;
         this.szybkosc = szybkosc;
-
-
-
     }
 }

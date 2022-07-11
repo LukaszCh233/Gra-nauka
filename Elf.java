@@ -1,10 +1,7 @@
 package Company;
 
-public class Elf extends AtrybutyPostaci{
+public class Elf extends AtrybutyPostaci {
     public Elf() {
-
     }
-
-
-    }
+}
 

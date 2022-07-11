@@ -6,11 +6,5 @@ public class Main {
         m.menuu();
         Postac p = new Postac();
         p.tworzeniePostacji();
-
-
-
-
-
-
     }
 }
