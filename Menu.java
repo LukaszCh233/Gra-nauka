@@ -9,6 +9,7 @@ public class Menu {
         System.out.println("2 - OPCJE");
         System.out.println("3 - STEROWANIE");
         System.out.println("4 - EXIT");
+        System.out.println("5 - STWORZ POSTAC");
         System.out.println("Co chcesz zrobic?: ");
 
         Scanner scanner = new Scanner(System.in);
@@ -22,6 +23,8 @@ public class Menu {
             System.out.println("Sterowanie");
         } else if (odp == 4) {
             System.exit(4);
+        } else if (odp == 5) {
+            Postac postac = Postac.tworzeniePostaci();
         }
     }
 }
