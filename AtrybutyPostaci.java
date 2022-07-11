@@ -12,4 +12,9 @@ public class AtrybutyPostaci {
         this.sila = sila;
         this.szybkosc = szybkosc;
     }
+
+    @Override
+    public String toString() {
+        return " Bron: " + bron + " HP: " + hp + " SILA: " + sila + " Szybkosc: " + szybkosc;
+    }
 }

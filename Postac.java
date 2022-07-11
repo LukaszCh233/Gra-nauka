@@ -29,11 +29,11 @@ public class Postac {
         Mag mag = new Mag();
 
         if (klasa.equals("elf"))
-            System.out.println("Wybrałeś elfa" + " Bron: " + elf.bron + " HP: " + elf.hp + " SILA: " + elf.sila + " Szybkosc: " + elf.szybkosc);
+            System.out.println("Wybrałeś elfa" + elf);
         if (klasa.equals("wojownik"))
-            System.out.println("Wybrałeś wojownika" + " Bron: " + wojownik.bron + " HP: " + wojownik.hp + " SILA: " + wojownik.sila + " Szybkosc: " + wojownik.szybkosc);
+            System.out.println("Wybrałeś wojownika" + wojownik);
         if (klasa.equals("mag"))
-            System.out.println("Wybrałeś maga" + " Bron: " + mag.bron + " HP: " + mag.hp + " SILA: " + mag.sila + " Szybkosc: " + mag.szybkosc);
+            System.out.println("Wybrałeś maga" + mag);
 
 
     }
