@@ -14,7 +14,7 @@ public class Postac {
         this.klasa = klasa;
     }
 
-    void tworzeniePostacji() {
+    void tworzeniePostaci() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Podaj nazwe postaci:");
