@@ -24,17 +24,22 @@ public class Postac {
         System.out.println("Wybierz klase: elf, wojownik, mag");
         klasa = scanner.nextLine();
 
+        AtrybutyPostaci atrybutyPostaci = wybierzKlase(klasa);
+        System.out.println(atrybutyPostaci);
+    }
 
+    private AtrybutyPostaci wybierzKlase(String klasa) {
         if (klasa.equals("elf")) {
-            Elf elf = new Elf();
-            System.out.println("Wybrałeś elfa" + elf);
+            System.out.println("Wybrałeś elfa");
+            return new Elf();
         } else if (klasa.equals("wojownik")) {
-            Wojownik wojownik = new Wojownik();
-            System.out.println("Wybrałeś wojownika" + wojownik);
+            System.out.println("Wybrałeś wojownika");
+            return new Wojownik();
         } else if (klasa.equals("mag")) {
-            Mag mag = new Mag();
-            System.out.println("Wybrałeś maga" + mag);
+            System.out.println("Wybrałeś maga");
+            return new Mag();
         }
+        return null;
     }
 }
 
