@@ -24,7 +24,6 @@ public class Postac {
         String klasa = scanner.nextLine();
 
         AtrybutyPostaci atrybutyPostaci = wybierzKlase(klasa);
-        System.out.println(atrybutyPostaci);
 
        return new Postac(nazwa, klasa, atrybutyPostaci);
     }
@@ -41,6 +40,15 @@ public class Postac {
             return new Mag();
         }
         return null;
+    }
+
+    @Override
+    public String toString() {
+        return "Postac{" +
+                "nazwa='" + nazwa + '\'' +
+                ", klasa='" + klasa + '\'' +
+                ", atrybutyPostaci=" + atrybutyPostaci +
+                '}';
     }
 }
 

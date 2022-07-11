@@ -25,6 +25,7 @@ public class Menu {
             System.exit(4);
         } else if (odp == 5) {
             Postac postac = Postac.tworzeniePostaci();
+            System.out.println("Stworzyles: " + postac);
         }
     }
 }
