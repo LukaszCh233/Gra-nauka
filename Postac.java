@@ -24,20 +24,17 @@ public class Postac {
         System.out.println("Wybierz klase: elf, wojownik, mag");
         klasa = scanner.nextLine();
 
-        Elf elf = new Elf();
-        Wojownik wojownik = new Wojownik();
-        Mag mag = new Mag();
 
-        if (klasa.equals("elf"))
+        if (klasa.equals("elf")) {
+            Elf elf = new Elf();
             System.out.println("Wybrałeś elfa" + elf);
-        if (klasa.equals("wojownik"))
+        } else if (klasa.equals("wojownik")) {
+            Wojownik wojownik = new Wojownik();
             System.out.println("Wybrałeś wojownika" + wojownik);
-        if (klasa.equals("mag"))
+        } else if (klasa.equals("mag")) {
+            Mag mag = new Mag();
             System.out.println("Wybrałeś maga" + mag);
-
-
+        }
     }
-
-
 }
 
