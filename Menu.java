@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public void menuu() {
-        Scanner scanner = new Scanner(System.in);
-        int odp;
-
+    public static void showMenu() {
         System.out.println("1 - START");
         System.out.println("2 - OPCJE");
         System.out.println("3 - STEROWANIE");
         System.out.println("4 - EXIT");
         System.out.println("Co chcesz zrobic?: ");
+
+        Scanner scanner = new Scanner(System.in);
+        int odp;
         odp = scanner.nextInt();
         if (odp == 1) {
             System.out.println("Start");
